@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Onepage website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      color: white;
+      background-color: blue;
+      margin: 20px 0px;
+    }
+
+    nav {
+      height: 50px;
+      background-color: blue;
+      color: white;
+      /* display: flex;
+            justify-content: space-evenly;
+            text-align: center; */
+      position: sticky;
+      z-index: 2;
+      top: 0;
+      border-bottom: 4px solid red;
+    }
+
+    ul {
+      display: flex;
+      text-decoration: none;
+      list-style: none;
+      justify-content: space-around;
+      padding-top: 20px;
+    }
+
+    a {
+      cursor: pointer;
+      color: white;
+      text-decoration: none;
+    }
+
+    body {
+      background-color: ;
+    }
+
+    #map {
+      height: 80vh;
+      margin: 0px 200px;
+    }
+
+    #hotspots {
+      display: grid;
+      grid-template-columns: 350px 350px 350px;
+      row-gap: 20px;
+      column-gap: 20px;
+      margin-left: 110px;
+    }
+
+    #images {
+      height: 320px;
+      width: 350px;
+      border: 2px solid blue;
+      border-radius: 20px;
+    }
+
+    .div1 {
+      margin: auto;
+      width: 1000px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .imgdiv1 {
+      height: 300px;
+      width: 330px;
+      border-radius: 30px;
+    }
+
+    fieldset {
+      max-width: 550px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 200px 300px;
+      gap: 20px;
+    }
+
+    label {
+      margin-left: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 align="center">MY WEBSITE</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#offers">Offers</a></li>
+      <li><a href="#login">Login</a></li>
+      <li><a href="#login">Register</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <br />
+  <section id="home">
+    <h2 align="center">WEL COME TO Home</h2>
+    <hr />
+    <hr />
+    <img id="map" src="https://cdn.pixabay.com/photo/2017/01/12/13/23/map-1974699__340.png" alt="" />
+  </section>
+  <section id="gallery">
+    <h1 align="center">Gallery</h1>
+    <div id="hotspots">
+      <a href="https://en.wikipedia.org/wiki/Jog_Falls"><img id="images"
+          src="https://cdn.pixabay.com/photo/2016/11/29/12/15/waterfalls-1869418__340.jpg" alt="Jogfalls" /></a>
+      <a href="https://en.wikipedia.org/wiki/Murdeshwar"><img id="images"
+          src="https://cdn.pixabay.com/photo/2013/08/14/20/29/shiva-172597__340.jpg" alt="Murudeshwar" /></a>
+      <a href="https://en.wikipedia.org/wiki/Pattadakal"><img id="images"
+          src="https://cdn.pixabay.com/photo/2013/08/13/17/15/pattadakal-monuments-172207__340.jpg"
+          alt="Pattadakallu" /></a>
+      <a href="https://en.wikipedia.org/wiki/Gol_Gumbaz"><img id="images"
+          src="https://cdn.pixabay.com/photo/2013/08/15/19/24/bijapur-172865__340.jpg" alt="Golgumbaz" /></a>
+      <a href="https://en.wikipedia.org/wiki/Nandi_Hills,_India"><img id="images"
+          src="https://cdn.pixabay.com/photo/2014/01/09/09/05/nandi-241008__340.jpg" alt="Nandi-betta" /></a>
+      <a href="https://en.wikipedia.org/wiki/Mysore_Palace"><img id="images"
+          src="https://cdn.pixabay.com/photo/2015/01/13/18/09/gate-598457__340.jpg" alt="Mysore-Palace" /></a>
+      <a href="https://en.wikipedia.org/wiki/Western_Ghats"><img id="images"
+          src="https://cdn.pixabay.com/photo/2014/05/12/19/14/western-ghats-342762__340.jpg" alt="Western-Ghats" /></a>
+      <a href="https://en.wikipedia.org/wiki/Kodagu_district"><img id="images"
+          src="https://cdn.pixabay.com/photo/2013/10/13/09/53/drepung-gomang-monastery-194994__340.jpg"
+          alt="Kushalnagar" /></a>
+      <a href=""><img id="images" src="https://cdn.pixabay.com/photo/2015/04/29/17/30/yana-745768__340.jpg"
+          alt="Yanaa" /></a>
+    </div>
+  </section>
+  <section id="offers">
+    <h1 align="center">!Offers!</h1>
+
+    <ol type="1">
+      <li><b>Three days trip Offers</b>
+        <ul type="disc">
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+          <li>Odit, officia laboriosam? Fuga voluptatibus excepturi et architecto perspiciatis,</li>
+          <li>magnam veritatis nisi nulla esse. Id vero veritatis repellat ipsamquam, quia similique?</li>
+        </ul>
+      </li><br>
+      <hr>
+      <li><b>One week full trip with 10% discount offers</b>
+        <ul type="disc">
+          <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad sequi,</li>
+          <li>maiores doloremque assumenda dicta nisi temporibus neque, dolorum labore voluptatibus,
+            adipisciperferendis! Nostrum,</li>
+          <li> quis ratione? Iste dolor itaque repellendus magnam sed deleniti maxime quas earum ex.</li>
+          <li> Excepturi temporibus reprehenderit dolor.</li>
+        </ul>
+      </li><br>
+      <hr>
+      <li><b>One month full trip with 15% discount and special food offers</b>
+        <ul type="disc">
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+          <li>Consequuntur dolore ab, aliquid ipsam totam facilis quam.</li>
+          <li>Voluptate eos quos in ipsa nobis sed quasi, vero, libero quibusdam</li>
+          <li>fugit eaque eius recusandae asperiores voluptates consectetur rem?</li>
+          <li> Ratione doloribus sequi atque!</li>
+        </ul>
+      </li><br>
+      <hr>
+    </ol>
+  </section>
+  <section id="login">
+    <h1 align="center">Login/Register</h1>
+    <form action="">
+      <fieldset>
+        <legend align="center">form</legend>
+        <label for="name">Name* :</label>
+        <input type="text" id="name">
+        <label for="address">Full Address* :</label>
+        <input type="text" id="address">
+        <label for="phone">Phone no* :</label>
+        <input type="number" id="phone">
+        <label for="email">Email* :</label>
+        <input type="text" id="email">
+        <label for="pwd">Password* :</label>
+        <input type="password" id="pwd">
+        <button type="submit">Submit</button>
+
+      </fieldset>
+    </form>
+  </section>
+
+  <section id="Contact">
+    <h1 align="center">Contact-Us</h1>
+    <div class="div1">
+      <img class="imgdiv1" src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358__340.jpg" alt="">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi officiis sequi libero at adipisci nesciunt
+        repellendus, exercitationem nulla suscipit numquam id doloribus quisquam iure magnam laudantium perferendis
+        asperiores atque minus laborum labore expedita reprehenderit ea nostrum distinctio? Rerum eos, eligendi maxime
+        in vel labore sed at ea earum officia laboriosam.</p>
+    </div>
+    <hr>
+    <div class="div1">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ducimus accusamus itaque tenetur adipisci
+        officiis porro accusantium maxime unde optio! Odit rem cumque perferendis explicabo, distinctio excepturi
+        officiis illum a beatae maxime accusamus ea ab corporis totam enim tenetur reprehenderit illo esse ducimus culpa
+        ex quia placeat officia error! Vitae. </p>
+      <img class="imgdiv1" src="https://cdn.pixabay.com/photo/2014/02/13/07/28/security-265130__340.jpg" alt="">
+    </div>
+  </section>
+</body>
+
+</html>
